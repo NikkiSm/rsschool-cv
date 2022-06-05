@@ -1,3 +1,5 @@
 #CV#
-##This is my CV##git 
-###I was born in 2000###
+This is my CV
+I was born in 2000
+I wanna be your master
+Or at least a trainee after 6 monthsgit commit 
