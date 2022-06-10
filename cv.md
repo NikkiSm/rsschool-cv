@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <style>
@@ -61,3 +62,4 @@ vk:nikolay_burikin</p>
 <a href="https://rs.school/js/"> <img src="https://rs.school/images/rs_school_js.svg" alt="rsschool" width="100" height="100"></a>
 </footer>
 </html>
+
