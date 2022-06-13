@@ -2,6 +2,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <style>
+    html {
+        scroll-behahavior: smooth;
+    }
+    .nav-list {
+        display:flex;
+        justify-content: flex-end;
+        align-items: center;
+        list-style: none;
+    }
+    .nav-link {
+        padding 0 20px;
+        line-height: 50px;
+        transition: .3s;
+    }
+    .section-item a {
+    color: #829985;
+    text-decoration: none;
+    transition: color 0.5s;
+    }
+    /section-item a:hover {
+        color: #4d2323;
+    }
     * {
         box-sizing: border-box;
     }
@@ -13,9 +35,28 @@
 body {
      color: #111111;
     background-color: #aaaaaa;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    }
+    .main-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .section {
+        width:50%;
+    }
+    .link {
+        text-decoration: none;
+        color:#643561;
+        transition: color 1s;
+    }
+    .link:hover {
+        color: #5f4374;
     }
     </style>
 
@@ -23,6 +64,14 @@ body {
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 
 </head>
+<header>
+<nav class="nav">
+<ul class="nav-list">
+<li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+<li class="nav-item"> <a href="#summary" class="nav-link">Summary</a></li>
+</ul>
+</nav>
+</header>
 <main>
 
 <nav> 
