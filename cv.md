@@ -110,4 +110,9 @@ vk:nikolay_burikin</p>
 <a href="https://github.com/NikkiSm">Github link</a>
 <a href="https://rs.school/js/"> <img src="https://rs.school/images/rs_school_js.svg" alt="rsschool" width="100" height="100"></a>
 </footer>
+<<<<<<< HEAD
 </html>
+=======
+</html>
+
+>>>>>>> f7bc77b4f38d879daed86beb46eb39ea974ba026
