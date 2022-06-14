@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href='style.css'>
+<title>CV</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+
+</head>
+<header class="container">
+    <div class="container"></div>
+<nav class="nav">
+<ul class="nav-list">
+<li class="nav-item"><a href="#aboutme" class="nav-link">About me</a></li>
+<li class="nav-item"> <a href="#summary" class="nav-link">Summary</a></li>
+<li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+<li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+<li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+<li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+</ul>
+</nav>
+</header>
+<main class="main-container">
+    
+
+<section class="section" id="aboutme">
+    <div class="container "></div>
+
+<h1>About me</h1>
+Hi! My name is Nikolay Burykin. Im 22 years old.
+I was born in small town Safonovo.
+<aside> <img src="https://sun9-58.userapi.com/c4924/u112894391/-6/x_a81cd443.jpg" alt="my photo"> </aside>
+</section>
+<section class="section " id="summary">
+<h2>What can i do?</h2>
+<ol>
+<li>Eat</li>
+<li>Sleep</li>
+</ol>
+</section>
+<section class="section" id="code">
+<h2>Code example</h2>
+<pre><code>
+    &lt;h1&gt;World&lt;/h1&gt;
+    &lt;p&gt;Hello, World&lt;/p&gt;
+</pre></code>
+</section>
+<section class="section " id="projects">
+<h2>My projects</h2>
+<a href="https://github.com/NikkiSm/rsschool-cv/blob/gh-pages/index.html">HTML example</a>
+</section>
+<section class="section" id="language">
+<h2>My education & language level</h2>
+<p>Saratov state law academy, Smolensk branch 2018-2022, Bachelor degree(almost)</p>
+<p>English: A2-B1, Polish:A2-B1, Russian:fluent</p>
+</section>
+<section class="section" id="contacts">
+<h2>Contacts</h2>
+<p>tg:@NikkiHikki
+    <br>
+vk:nikolay_burikin</p>
+</section>
+</main>
+
+<footer class="container">
+    <div class="container"></div>
+<h4>2022</h4>
+<a href="https://github.com/NikkiSm"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="github" width="100" height="100"> </a>
+<a href="https://rs.school/js/"> <img src="https://rs.school/images/rs_school_js.svg" alt="rsschool" width="100" height="100"></a>
+</footer>
+</html>
