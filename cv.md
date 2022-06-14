@@ -42,7 +42,7 @@ I was born in small town Safonovo.
 <pre><code>
     &lt;h1&gt;World&lt;/h1&gt;
     &lt;p&gt;Hello, World&lt;/p&gt;
-</pre></code>
+</code></pre>
 </section>
 <section class="section " id="projects">
 <h2>My projects</h2>
@@ -63,7 +63,7 @@ vk:nikolay_burikin</p>
 
 <footer class="container">
     <div class="container"></div>
-<h4>2022</h4>
+<time datetime="2022">2022</time>
 <a href="https://github.com/NikkiSm"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="github" width="100" height="100"> </a>
 <a href="https://rs.school/js/"> <img src="https://rs.school/images/rs_school_js.svg" alt="rsschool" width="100" height="100"></a>
 </footer>
