@@ -1,3 +1,133 @@
+html {
+  font-size: 10px;
+}
 
+body {
+  font-size: 1.6rem;
+}
+
+h1 {
+  font-family: "Aleo", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 96px;
+}
+
+h2 {
+  font-family: "Red Hat Text", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 53px;
+}
+
+h3 {
+  font-family: "Aleo", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 42px;
+}
+
+h4 {
+  font-family: "Aleo", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.button {
+  padding: 10px 30px;
+  background-color: #0D606F;
+  color: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+  border-radius: 10px;
+  border: none;
+  font-family: "Red Hat Text";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button__header {
+  margin: 150px;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation {
+  display: flex;
+  list-style: none;
+}
+
+.navigation__link {
+  font-family: "Red Hat Text";
+  font-style: normal;
+  font-weight: 500;
+  padding: 0px 21px;
+  cursor: pointer;
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+  color: #FFFFFF;
+}
+
+.logo {
+  padding: 26px 0px 34px 120px;
+}
+
+/*.header__promo{
+    background-image: url("/img/backgrounds/background-header.png") ;
+    background-image: no-repeat;
+    padding: auto;
+}
+.travel__wrapper {
+    width: 100%;
+    max-width: 1440px;
+    background: url('img\backgrounds\background-header.png') no-repeat top, url('img\backgrounds\background-footer.png') no-repeat bottom;
+}*/
+.header {
+  height: 90px;
+  background-position: center top;
+  background-image: url("/img/backgrounds/background-header.png");
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+  margin-bottom: -65px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid #000000;
+}
+
+.promo {
+  height: 660px;
+  background-position: center bottom;
+  background-image: url("/img/backgrounds/background-header.png");
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+  margin-top: 0px;
+  color: #FFFFFF;
+}
+
+.header__color {
+  height: 90px;
+  background-color: #F2785C;
+  opacity: 0.7;
+  width: 100%;
+  max-width: 1440px;
+}
 
 /*# sourceMappingURL=style.css.map */

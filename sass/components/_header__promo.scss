@@ -1,0 +1,39 @@
+/*.header__promo{
+    background-image: url("/img/backgrounds/background-header.png") ;
+    background-image: no-repeat;
+    padding: auto;
+}
+.travel__wrapper {
+    width: 100%;
+    max-width: 1440px;
+    background: url('img\backgrounds\background-header.png') no-repeat top, url('img\backgrounds\background-footer.png') no-repeat bottom;
+}*/
+.header {
+    height: 90px;
+    background-position: center top;
+     background-image:  url("/img/backgrounds/background-header.png") ;
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    margin-bottom: -65px;
+    box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
+    border: 1px solid #000000;
+    
+}
+.promo {
+    height: 660px;
+    background-position: center bottom;
+    background-image:  url("/img/backgrounds/background-header.png") ;
+    width: 100%;
+    max-width: 1440px;
+  margin: auto; 
+    margin-top: 0px;
+    color: $color-light;
+}
+.header__color {
+    height: 90px;
+   background-color: #F2785C;
+    opacity: 0.7;
+    width: 100%;
+    max-width: 1440px;
+}

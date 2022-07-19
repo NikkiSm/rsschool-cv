@@ -1,0 +1,23 @@
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigation {
+    display: flex;
+    list-style: none;
+   
+}
+.navigation__link {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    padding: 0px 21px;
+    cursor: pointer;
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+    color: $color-light;
+}
+.logo {
+    padding: 26px 0px 34px 120px;
+}
