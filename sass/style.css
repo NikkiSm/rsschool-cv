@@ -154,4 +154,13 @@ h4 {
   margin-left: -30px;
 }
 
+.promo__input {
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 16px;
+  width: 892px;
+  height: 95px;
+  margin-left: -30px;
+  border: none;
+}
+
 /*# sourceMappingURL=style.css.map */
