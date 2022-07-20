@@ -10,32 +10,37 @@ body {
 
 h1 {
     font-family: 'Aleo', serif;
-    font-style: normal;
+    @include font($size:80px, $weight:700, $height:96px);
+   /*font-style: normal;
     font-weight: 700;
     font-size: 80px;
-    line-height: 96px;
+    line-height: 96px;*/
 }
 
 h2{
     font-family: 'Red Hat Text', sans-serif;
-    font-style: normal;
+    @include font($size:40px, $weight:500, $height:53px);
+
+    /*font-style: normal;
     font-weight: 500;
     font-size: 40px;
-    line-height: 53px;
+    line-height: 53px;*/
 }
 
 h3{
     font-family: 'Aleo', serif;
-    font-style: normal;
+    @include font($size:35px, $weight:400, $height:42px);
+    /*font-style: normal;
     font-weight: 400;
     font-size: 35px;
-    line-height: 42px;
+    line-height: 42px;*/
 }
 
 h4{
     font-family: 'Aleo', serif;
-    font-style: normal;
+    @include font($size:20px, $weight:400, $height:24px);
+    /*font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 24px;*/
 }

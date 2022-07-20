@@ -15,8 +15,13 @@
     <div class="wrapper header__wrapper header__color ">
        
     
-        <a href="#" class="logo"><img src="img\vectors\logo.svg" alt="logo"> </a>
-        <nav class="header__navigation">
+        <a href="#" class="logo">
+            <!--img src="img\vectors\logo.svg" alt="logo">// </a>-->
+            <object type="image/svg+xml" data="img\vectors\logo.svg" class="svg-object">
+                Your browser does not support SVG
+                </object>
+                </a>
+                <nav class="header__navigation">
             <ul class="navigation">
                 <li class="navigation__link">How it Works</li>
                 <li class="navigation__link">Plan Your Trip</li>
@@ -32,8 +37,8 @@
     </header>
     <section class="promo ">
         <div class="wrapper">
-            <h1 >Explore the beauty of <br> the World</h1>
-        <p>Receive personalized recommendations for countries,hotels, activities and more</p>
+            <h1 class="promo__header">Explore the beauty of <br> the World</h1>
+        <p class="promo__p">Receive personalized recommendations for countries,hotels, activities and more</p>
         <form action method="post">
             <div class="promo__input">
                 <input type="text" name="name" placeholder="What would you like to do?">
@@ -41,7 +46,7 @@
             </div>
         </form>
         >    </div> 
-    </di>
+    </div>
         </section>  
     </div>
     </section>

@@ -8,34 +8,46 @@ body {
 
 h1 {
   font-family: "Aleo", serif;
-  font-style: normal;
-  font-weight: 700;
   font-size: 80px;
+  font-weight: 700;
   line-height: 96px;
+  /*font-style: normal;
+   font-weight: 700;
+   font-size: 80px;
+   line-height: 96px;*/
 }
 
 h2 {
   font-family: "Red Hat Text", sans-serif;
-  font-style: normal;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 53px;
+  /*font-style: normal;
   font-weight: 500;
   font-size: 40px;
-  line-height: 53px;
+  line-height: 53px;*/
 }
 
 h3 {
   font-family: "Aleo", serif;
-  font-style: normal;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 42px;
+  /*font-style: normal;
   font-weight: 400;
   font-size: 35px;
-  line-height: 42px;
+  line-height: 42px;*/
 }
 
 h4 {
   font-family: "Aleo", serif;
-  font-style: normal;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  /*font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 24px;*/
 }
 
 .button {
@@ -55,7 +67,7 @@ h4 {
 }
 
 .button__header {
-  margin: 150px;
+  margin: 25px 120px 24px 0px;
 }
 
 .wrapper {
@@ -100,7 +112,6 @@ h4 {
     background: url('img\backgrounds\background-header.png') no-repeat top, url('img\backgrounds\background-footer.png') no-repeat bottom;
 }*/
 .header {
-  height: 90px;
   background-position: center top;
   background-image: url("/img/backgrounds/background-header.png");
   width: 100%;
@@ -109,10 +120,11 @@ h4 {
   margin-bottom: -65px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border: 1px solid #000000;
+  box-sizing: border-box;
 }
 
 .promo {
-  height: 660px;
+  height: 675px;
   background-position: center bottom;
   background-image: url("/img/backgrounds/background-header.png");
   width: 100%;
@@ -128,6 +140,18 @@ h4 {
   opacity: 0.7;
   width: 100%;
   max-width: 1440px;
+}
+
+.promo__header {
+  max-width: 892px;
+  padding-top: 25px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.promo__p {
+  padding-top: 30px;
+  margin-left: -30px;
 }
 
 /*# sourceMappingURL=style.css.map */
