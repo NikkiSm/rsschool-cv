@@ -3,3 +3,10 @@
         font-weight: $weight;
         line-height: $height; 
 }
+@mixin font-placeholder ($size, $height, $weight, $style)
+    {font-size: $size;
+        font-weight: $weight;
+        line-height: $height; 
+        font-style: $style;
+}
+    

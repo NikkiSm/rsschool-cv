@@ -1,3 +1,15 @@
+input::placeholder {
+  font-family: "Aleo", serif;
+}
+
+.button {
+  font-family: "Red Hat Text", sans-serif;
+}
+
+.button {
+  transition: 0.3s ease-out;
+}
+
 html {
   font-size: 10px;
 }
@@ -57,13 +69,19 @@ h4 {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
   border-radius: 10px;
   border: none;
-  font-family: "Red Hat Text";
   font-style: normal;
   font-weight: 500;
   font-size: 1.6rem;
   line-height: 2.1rem;
   cursor: pointer;
-  transition: 0.3s;
+}
+
+.button-promo {
+  position: absolute;
+  width: 228px;
+  left: 910px;
+  top: 418px;
+  height: 59px;
 }
 
 .button__header {
@@ -99,6 +117,12 @@ h4 {
 
 .logo {
   padding: 26px 0px 34px 120px;
+}
+
+.layout-3-column {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /*.header__promo{
@@ -151,7 +175,6 @@ h4 {
 
 .promo__p {
   padding-top: 30px;
-  margin-left: -30px;
 }
 
 .promo__input {
@@ -159,8 +182,33 @@ h4 {
   border-radius: 16px;
   width: 892px;
   height: 95px;
-  margin-left: -30px;
   border: none;
+}
+
+input::placeholder {
+  color: #F2785C;
+  padding-left: 41px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  font-style: italic;
+}
+
+.header-tools {
+  text-align: center;
+  color: #F2785C;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 53px;
+}
+
+.icon__square {
+  display: inline-block;
+  margin: 130px;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: #F2785C;
 }
 
 /*# sourceMappingURL=style.css.map */
