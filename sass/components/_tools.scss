@@ -4,20 +4,20 @@
     @include font($height:53px, $size:40px, $weight:500);
 }
 .icon__square {
-  display: inline-block;
+  
+  display: inline-flex;
   margin: 0px 130px;
     width: 100px;
     height: 100px;
     border-radius: 10px;
+    align-items: center;
+  justify-content: center;
     background-color: $color-additional;}
     .text-steps
     {
       padding-left: 80px;
     }
     //destinitions
-    .heading-destinition {
-      text-align: center;
-      
-    }
+    
 
 
