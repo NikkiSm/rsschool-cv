@@ -211,4 +211,8 @@ input::placeholder {
   background-color: #F2785C;
 }
 
+.tool__icon {
+  padding: 30px;
+}
+
 /*# sourceMappingURL=style.css.map */

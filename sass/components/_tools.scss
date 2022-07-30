@@ -5,9 +5,19 @@
 }
 .icon__square {
   display: inline-block;
-  margin: 130px;
+  margin: 0px 130px;
     width: 100px;
     height: 100px;
     border-radius: 10px;
     background-color: $color-additional;}
+    .text-steps
+    {
+      padding-left: 80px;
+    }
+    //destinitions
+    .heading-destinition {
+      text-align: center;
+      
+    }
+
 
