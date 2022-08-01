@@ -4,3 +4,15 @@
         align-items: center;
         justify-content: space-between;
     }
+    .layout-2-column {
+        display: grid;
+        grid-template-columns: 40% 60%;
+        max-width: $content-width;
+    }
+    .flex-photo {
+width: 35%;
+    }
+    .flex-text {
+width: 50%;
+    }
+  

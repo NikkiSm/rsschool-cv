@@ -18,6 +18,24 @@
       padding-left: 80px;
     }
     //destinitions
-    
+    .destinations {
+     
+      align-items: center;
+      position: relative;
+     justify-content: center;
+     overflow: hidden;
+     display: flex;
+     max-width: $content-width;
+    }
+    .block-rounded {
+      margin-left: 30px;
+      
+    }
+    .destination-image {
+      border-radius: 16px;
+    }
+    .destination-bg {
+      background: url(img\backgrounds\background-footer.png);
+    }
 
 
