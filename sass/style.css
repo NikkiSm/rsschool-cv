@@ -97,6 +97,11 @@ h4 {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  font-family: "Red Hat Text";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
   margin: auto;
   box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
   border-radius: 10px;
@@ -137,6 +142,39 @@ h4 {
   background-repeat: no-repeat;
   align-items: center;
   justify-content: center;
+}
+
+.arrow {
+  padding-right: 10px;
+}
+
+.ellipses {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.ellipse {
+  width: 20px;
+  height: 20px;
+  background: rgba(242, 120, 92, 0.5);
+  border-radius: 10px;
+}
+
+div#text-upperpic {
+  position: relative;
+}
+
+.destination-name {
+  position: absolute;
+  bottom: 0;
+  margin-left: 15px;
+  margin-bottom: 40px;
+  color: #FFFFFF;
 }
 
 .wrapper {
@@ -180,6 +218,29 @@ h4 {
   display: grid;
   grid-template-columns: 40% 60%;
   max-width: 1440px;
+  background-image: url(/img/backgrounds/background-footer.png);
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  position: relative;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.layout-2-column::after {
+  content: "";
+  background-image: url(/img/backgrounds/background-footer.png);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  opacity: 0.75;
+  z-index: -3;
+}
+
+.opacity-span {
+  opacity: 1;
 }
 
 .flex-photo {
@@ -259,12 +320,20 @@ input::placeholder {
   font-style: italic;
 }
 
+.promo__wrapper {
+  padding-left: 120px;
+}
+
 .header-tools {
   text-align: center;
   color: #F2785C;
   font-size: 40px;
   font-weight: 500;
   line-height: 53px;
+}
+
+.tool {
+  padding-left: 84px;
 }
 
 .icon__square {
@@ -301,6 +370,15 @@ input::placeholder {
 
 .destination-bg {
   background: url(img஬kgrounds஬kground-footer.png);
+}
+
+.block-rounded {
+  padding-top: 30px;
+}
+
+.travel-stories-content {
+  color: #0D606F;
+  opacity: 1;
 }
 
 /*# sourceMappingURL=style.css.map */

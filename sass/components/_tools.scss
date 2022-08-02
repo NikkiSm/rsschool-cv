@@ -3,6 +3,9 @@
     color: $color-additional;
     @include font($height:53px, $size:40px, $weight:500);
 }
+.tool {
+  padding-left: 84px;
+}
 .icon__square {
   
   display: inline-flex;
@@ -36,6 +39,15 @@
     }
     .destination-bg {
       background: url(img\backgrounds\background-footer.png);
+    }
+    .block-rounded {
+      padding-top: 30px;
+    }
+
+    .travel-stories-content
+    {
+      color: #0D606F;
+      opacity: 1;
     }
 
 

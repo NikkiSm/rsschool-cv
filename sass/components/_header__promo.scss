@@ -65,3 +65,6 @@ input::placeholder {
     @include font-placeholder($height:29px, $style:italic, $weight:400, $size:24px);
 
 }
+.promo__wrapper {
+    padding-left: 120px;
+}

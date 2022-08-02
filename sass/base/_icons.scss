@@ -28,3 +28,33 @@
     justify-content: center;
 
 }
+.arrow {
+    padding-right: 10px;
+}
+.ellipses {
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+align-items: center;
+    justify-content: center;
+}
+.ellipse {
+    width: 20px;
+height: 20px;
+background: rgba(242, 120, 92, 0.5);
+border-radius: 10px;
+}
+//picture
+div#text-upperpic {
+    position: relative;
+}
+.destination-name {
+    position: absolute;
+    bottom: 0;
+    margin-left: 15px;
+    margin-bottom: 40px;
+   color: $color-light;
+    
+}
