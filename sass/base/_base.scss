@@ -1,11 +1,12 @@
 html {
     font-size: 10px;
+    height: 100%;
     
 }
 
 body {
     font-size: 1.6rem;
-   
+   height: 100%;
     }
 
 h1 {
@@ -43,4 +44,19 @@ h4{
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;*/
-}
+    
+}  
+    //footer text
+    .footer-central-text{
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;}
+
+    .footer-style {
+        background: url(/img/backgrounds/background-footer.png) center bottom;
+        display: flex;
+        flex-direction: row;
+       justify-content: center;
+    }
