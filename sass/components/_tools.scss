@@ -56,20 +56,53 @@
     }
     .block-rounded {
       margin-left: 30px;
-      
+      padding-top: 30px;
+      @include media-mobile {
+        margin-left: 0px;
+        padding-top: 10px;
+      }
     }
     .destination-image {
       border-radius: 16px;
-    }
+        @include media-mobile {
+         // background-image: url(/img/countries/japan-small.png);
+          height: 210px;
+          width: 360px;
+        }
+      }
+
     .destination-bg {
       background: url(img\backgrounds\background-footer.png);
     }
-    .block-rounded {
-      padding-top: 30px;
+    .travel-stories-img {
+      @include media-mobile {
+        width: 155px;
+        height: 130px;
+      }
     }
-
+    .travel-stories-content p {
+      @include media-mobile {
+        font-size: 9px;
+        line-height: 11px;
+        margin-left: 20px;
+      }
+    }
+    .travel-stories-content h3 {
+      @include media-mobile {
+        font-size: 11px;
+        line-height: 13px;
+        margin-left: 20px;
+      }
+    }
+  
     .travel-stories-content
     {
       color: #0D606F;
-      opacity: 1;
-    }
+      opacity: 1;}
+     
+     .arrow {
+      @include media-mobile {
+        background-image: url(/img/vectors/bi_arrow-right-small.svg);
+      }
+     } 
+    

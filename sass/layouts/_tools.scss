@@ -10,6 +10,9 @@
         grid-template-columns: 40% 60%;
         max-width: $content-width;
        background: rgba(255, 255, 255, 0.7);
+       @include media-mobile {
+        max-width: none;
+       }
     }
     .flex-photo {
 width: 35%;

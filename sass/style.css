@@ -175,6 +175,19 @@ h4 {
   align-content: center;
   justify-content: center;*/
 }
+@media (max-width: 390px) {
+  .button__central {
+    width: 92px;
+    height: 30px;
+    margin-left: 70%;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    padding: 7.5px 12px;
+    margin: auto;
+    left: 0px;
+    top: 0px;
+  }
+}
 
 .logo-mobile {
   display: none;
@@ -294,6 +307,16 @@ div#text-upperpic {
   margin-bottom: 40px;
   color: #FFFFFF;
 }
+@media (max-width: 390px) {
+  .destination-name {
+    font-family: "Red Hat Text";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 180px;
+  }
+}
 
 .wrapper {
   max-width: 1440px;
@@ -342,6 +365,11 @@ div#text-upperpic {
   grid-template-columns: 40% 60%;
   max-width: 1440px;
   background: rgba(255, 255, 255, 0.7);
+}
+@media (max-width: 390px) {
+  .layout-2-column {
+    max-width: none;
+  }
 }
 
 .flex-photo {
@@ -554,23 +582,61 @@ input::placeholder {
 
 .block-rounded {
   margin-left: 30px;
+  padding-top: 30px;
+}
+@media (max-width: 390px) {
+  .block-rounded {
+    margin-left: 0px;
+    padding-top: 10px;
+  }
 }
 
 .destination-image {
   border-radius: 16px;
+}
+@media (max-width: 390px) {
+  .destination-image {
+    height: 210px;
+    width: 360px;
+  }
 }
 
 .destination-bg {
   background: url(img஬kgrounds஬kground-footer.png);
 }
 
-.block-rounded {
-  padding-top: 30px;
+@media (max-width: 390px) {
+  .travel-stories-img {
+    width: 155px;
+    height: 130px;
+  }
+}
+
+@media (max-width: 390px) {
+  .travel-stories-content p {
+    font-size: 9px;
+    line-height: 11px;
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 390px) {
+  .travel-stories-content h3 {
+    font-size: 11px;
+    line-height: 13px;
+    margin-left: 20px;
+  }
 }
 
 .travel-stories-content {
   color: #0D606F;
   opacity: 1;
+}
+
+@media (max-width: 390px) {
+  .arrow {
+    background-image: url(/img/vectors/bi_arrow-right-small.svg);
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
