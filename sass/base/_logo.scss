@@ -1,0 +1,30 @@
+.logo-mobile {
+    display: none;
+
+    background-image: url("/img/vectors/logo-mobile.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 15px;
+    right: 86.9%;
+    top: 6.25%;
+    bottom: 0%;
+@include media-mobile{
+    display: block;
+    //padding-left: 15px;
+}
+}
+.burger-menu {
+    display: none;
+    background-image: url("/img/vectors/burger-menu.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 15px;
+    left: 86.9%;
+    top: 6.25%;
+    bottom: 0%;
+@include media-mobile{
+    display: block;
+    //padding-left: 15px;
+}
+
+}

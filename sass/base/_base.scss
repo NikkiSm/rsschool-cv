@@ -39,7 +39,12 @@ h3{
 
 h4{
     font-family: 'Aleo', serif;
+    color: $color-primary;
     @include font($size:20px, $weight:400, $height:24px);
+    @include media-mobile {
+        @include font($size:10px, $weight:400, $height:12px);
+        padding-right: 60px;
+    }
     /*font-style: normal;
     font-weight: 400;
     font-size: 20px;

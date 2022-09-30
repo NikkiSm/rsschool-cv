@@ -57,6 +57,7 @@ h3 {
 
 h4 {
   font-family: "Aleo", serif;
+  color: #0D606F;
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
@@ -64,6 +65,14 @@ h4 {
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;*/
+}
+@media (max-width: 390px) {
+  h4 {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    padding-right: 60px;
+  }
 }
 
 .footer-central-text {
@@ -125,6 +134,20 @@ h4 {
   top: 418px;
   height: 59px;
 }
+@media (max-width: 390px) {
+  .button-promo {
+    width: 92px;
+    height: 30px;
+    margin-left: 70%;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    padding: 7.5px 9px;
+    left: 0px;
+    top: 0px;
+    margin-top: 40%;
+    position: absolute;
+  }
+}
 
 .button__header {
   margin: 25px 120px 24px 0px;
@@ -153,6 +176,38 @@ h4 {
   justify-content: center;*/
 }
 
+.logo-mobile {
+  display: none;
+  background-image: url("/img/vectors/logo-mobile.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 15px;
+  right: 86.9%;
+  top: 6.25%;
+  bottom: 0%;
+}
+@media (max-width: 390px) {
+  .logo-mobile {
+    display: block;
+  }
+}
+
+.burger-menu {
+  display: none;
+  background-image: url("/img/vectors/burger-menu.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 15px;
+  left: 86.9%;
+  top: 6.25%;
+  bottom: 0%;
+}
+@media (max-width: 390px) {
+  .burger-menu {
+    display: block;
+  }
+}
+
 .ico {
   cursor: pointer;
   display: flex;
@@ -166,6 +221,13 @@ h4 {
   align-items: center;
   justify-content: center;
 }
+@media (max-width: 390px) {
+  .ico_bike {
+    background-image: url("/img/vectors/bike-small.svg");
+    width: 35px;
+    height: 31.5px;
+  }
+}
 
 .ico_calendar {
   width: 52px;
@@ -175,6 +237,13 @@ h4 {
   align-items: center;
   justify-content: center;
 }
+@media (max-width: 390px) {
+  .ico_calendar {
+    background-image: url("/img/vectors/calendar-small.svg");
+    width: 35px;
+    height: 35px;
+  }
+}
 
 .ico_plane {
   width: 60px;
@@ -183,6 +252,13 @@ h4 {
   background-repeat: no-repeat;
   align-items: center;
   justify-content: center;
+}
+@media (max-width: 390px) {
+  .ico_plane {
+    width: 40px;
+    height: 30px;
+    background-image: url("/img/vectors/plane-small.svg");
+  }
 }
 
 .arrow {
@@ -320,7 +396,7 @@ div#text-upperpic {
 }
 @media (max-width: 390px) {
   .promo {
-    background-image: url("img/backgrounds/bg-small-first.png");
+    background-image: url("/img/backgrounds/bg-small-first.png");
     background-repeat: no-repeat;
     height: 250px;
     background-position: top;
@@ -367,8 +443,11 @@ div#text-upperpic {
 }
 @media (max-width: 390px) {
   .promo__input {
-    width: 92.3%;
     padding: auto;
+    height: 48px;
+    width: 96.3%;
+    margin-top: 39%;
+    margin-left: 15px;
   }
 }
 
@@ -380,9 +459,23 @@ input::placeholder {
   line-height: 29px;
   font-style: italic;
 }
+@media (max-width: 390px) {
+  input::placeholder {
+    padding-left: 16px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    font-style: italic;
+  }
+}
 
 .promo__wrapper {
   padding-left: 120px;
+}
+@media (max-width: 390px) {
+  .promo__wrapper {
+    padding-left: 0px;
+  }
 }
 
 .opacity-2-column {
@@ -396,9 +489,25 @@ input::placeholder {
   font-weight: 500;
   line-height: 53px;
 }
+@media (max-width: 390px) {
+  .header-tools {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19px;
+  }
+}
 
 .tool {
   padding-left: 84px;
+}
+@media (max-width: 390px) {
+  .tool {
+    padding-left: 0px;
+  }
+}
+
+.tool__icon {
+  display: flex;
 }
 
 .icon__square {
@@ -406,14 +515,32 @@ input::placeholder {
   margin: 0px 130px;
   width: 100px;
   height: 100px;
-  border-radius: 10px;
+  border-radius: 16px;
   align-items: center;
   justify-content: center;
   background-color: #F2785C;
 }
+@media (max-width: 390px) {
+  .icon__square {
+    width: 70px;
+    height: 70px;
+    margin: 0px 75px 0px 0px;
+  }
+}
+
+@media (max-width: 390px) {
+  .icon__square > h4 {
+    width: 100%;
+  }
+}
 
 .text-steps {
   padding-left: 80px;
+}
+@media (max-width: 390px) {
+  .text-steps {
+    padding-left: 0px;
+  }
 }
 
 .destinations {

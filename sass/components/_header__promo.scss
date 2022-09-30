@@ -34,7 +34,7 @@
     margin-top: 0px;
     color: $color-light;
     @include media-mobile {
-    background-image:  url("img/backgrounds/bg-small-first.png") ;
+    background-image:  url("/img/backgrounds/bg-small-first.png") ;
     background-repeat: no-repeat;
     height: 250px;
     background-position: top;
@@ -67,18 +67,30 @@ border-radius: 16px;
 width: 892px;
 height: 95px;
 border: none;
-@include media-mobile {width: 92.3%;
-padding: auto;}
+@include media-mobile {
+padding: auto;
+height: 48px;
+width: 96.3%;
+    margin-top: 39%;
+    margin-left: 15px;
+   
+}
 }
 input::placeholder {
     color: $color-additional;
     padding-left: 41px;
    @extend %font-first;
     @include font-placeholder($height:29px, $style:italic, $weight:400, $size:24px);
+    @include media-mobile {
+        padding-left: 16px;
+        @include font-placeholder($height:17px, $style:italic, $weight:400, $size:14px);
+        }
 
 }
 .promo__wrapper {
     padding-left: 120px;
+    @include media-mobile {
+        padding-left: 0px;}
 }
 .opacity-2-column {
     background: rgba(255, 255, 255, 0.7);

@@ -21,6 +21,18 @@ position: absolute;
 left: 910px;
 top: 418px;
 height: 59px;
+@include media-mobile {
+width: 92px;
+    height: 30px;
+    margin-left: 70%;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    padding: 7.5px 9px;
+    left: 0px;
+    top: 0px;
+    margin-top: 40%;
+    position: absolute;
+}
 }
 
 

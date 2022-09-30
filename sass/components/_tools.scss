@@ -2,9 +2,19 @@
     text-align: center;
     color: $color-additional;
     @include font($height:53px, $size:40px, $weight:500);
+
+    @include media-mobile {
+      @include font($height:19px, $size:14px, $weight:500);
+    }
 }
 .tool {
   padding-left: 84px;
+  @include media-mobile {
+    padding-left: 0px;
+  }
+}
+.tool__icon {
+  display: flex;
 }
 .icon__square {
   
@@ -12,13 +22,27 @@
   margin: 0px 130px;
     width: 100px;
     height: 100px;
-    border-radius: 10px;
+    border-radius: 16px;
     align-items: center;
   justify-content: center;
-    background-color: $color-additional;}
-    .text-steps
+    background-color: $color-additional;
+    @include media-mobile {
+     width: 70px;
+     height: 70px;
+     margin: 0px 75px 0px 0px;
+    }}
+
+   .icon__square>h4 {
+    @include media-mobile {
+      width: 100%;
+   }}
+   .text-steps
     {
       padding-left: 80px;
+    @include media-mobile {
+      padding-left: 0px;
+
+    }
     }
     //destinitions
     .destinations {
