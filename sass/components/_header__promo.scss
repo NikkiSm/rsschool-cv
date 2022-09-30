@@ -19,6 +19,9 @@
     box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
     border: 1px solid #000000;
     box-sizing: border-box;
+    @include media-mobile {display: none ;}
+      
+
     
 }
 .promo {
@@ -30,6 +33,13 @@
   margin: auto; 
     margin-top: 0px;
     color: $color-light;
+    @include media-mobile {
+    background-image:  url("img/backgrounds/bg-small-first.png") ;
+    background-repeat: no-repeat;
+    height: 250px;
+    background-position: top;
+    width: 100%;
+    margin: none;}
 }
 .header__color {
     height: 90px;
@@ -45,10 +55,11 @@
    padding-top: 25px;
     padding-bottom: 0px;
     margin-bottom: 0px;
+    @include media-mobile {display: none;}
 }
 .promo__p {
     padding-top: 30px;
-    
+    @include media-mobile {display: none;} 
 }
 .promo__input {
     background: rgba(255, 255, 255, 0.7);
@@ -56,6 +67,8 @@ border-radius: 16px;
 width: 892px;
 height: 95px;
 border: none;
+@include media-mobile {width: 92.3%;
+padding: auto;}
 }
 input::placeholder {
     color: $color-additional;

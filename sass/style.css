@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import "../node_modules/normalize.css/normalize.css";
 input::placeholder {
   font-family: "Aleo", serif;
 }
@@ -222,6 +223,11 @@ div#text-upperpic {
   max-width: 1440px;
   margin: auto;
 }
+@media (max-width: 390px) {
+  .wrapper {
+    padding: 0px 15px;
+  }
+}
 
 .header__wrapper {
   display: flex;
@@ -296,6 +302,11 @@ div#text-upperpic {
   border: 1px solid #000000;
   box-sizing: border-box;
 }
+@media (max-width: 390px) {
+  .header {
+    display: none;
+  }
+}
 
 .promo {
   height: 675px;
@@ -306,6 +317,16 @@ div#text-upperpic {
   margin: auto;
   margin-top: 0px;
   color: #FFFFFF;
+}
+@media (max-width: 390px) {
+  .promo {
+    background-image: url("img/backgrounds/bg-small-first.png");
+    background-repeat: no-repeat;
+    height: 250px;
+    background-position: top;
+    width: 100%;
+    margin: none;
+  }
 }
 
 .header__color {
@@ -322,9 +343,19 @@ div#text-upperpic {
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
+@media (max-width: 390px) {
+  .promo__header {
+    display: none;
+  }
+}
 
 .promo__p {
   padding-top: 30px;
+}
+@media (max-width: 390px) {
+  .promo__p {
+    display: none;
+  }
 }
 
 .promo__input {
@@ -333,6 +364,12 @@ div#text-upperpic {
   width: 892px;
   height: 95px;
   border: none;
+}
+@media (max-width: 390px) {
+  .promo__input {
+    width: 92.3%;
+    padding: auto;
+  }
 }
 
 input::placeholder {
