@@ -8,7 +8,7 @@
     right: 86.9%;
     top: 6.25%;
     bottom: 0%;
-@include media-mobile{
+@include media-mobile; @include media-tablet{
     display: block;
     //padding-left: 15px;
 }
@@ -22,7 +22,7 @@
     left: 86.9%;
     top: 6.25%;
     bottom: 0%;
-@include media-mobile{
+@include media-mobile; @include media-tablet{
     display: block;
     //padding-left: 15px;
 }

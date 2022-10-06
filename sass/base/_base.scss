@@ -60,7 +60,7 @@ h4{
     font-size: 16px;
     line-height: 21px;
     padding-left: 590px;
-    @include media-mobile {
+    @include media-mobile; @include media-tablet {
         display: none;
     }
 }
@@ -75,7 +75,7 @@ h4{
     padding-left: 320px;
     padding-right: 120px;
     margin: auto;
-    @include media-mobile {
+    @include media-mobile; @include media-tablet {
         padding-left: 0px;
         padding-right: 0px;
     }

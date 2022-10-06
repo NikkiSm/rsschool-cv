@@ -3,13 +3,13 @@
     color: $color-additional;
     @include font($height:53px, $size:40px, $weight:500);
 
-    @include media-mobile {
+    @include media-mobile; @include media-tablet {
       @include font($height:19px, $size:14px, $weight:500);
     }
 }
 .tool {
   padding-left: 84px;
-  @include media-mobile {
+  @include media-mobile; @include media-tablet {
     padding-left: 0px;
     margin-bottom: -10px;
   }
@@ -27,7 +27,7 @@
     align-items: center;
   justify-content: center;
     background-color: $color-additional;
-    @include media-mobile {
+    @include media-mobile; @include media-tablet{
      width: 70px;
      height: 70px;
      margin: 0px 75px 0px 0px;
@@ -40,7 +40,7 @@
    .text-steps
     {
       padding-left: 80px;
-    @include media-mobile {
+    @include media-mobile ;@include media-tablet{
       padding-left: 0px;
 
     }
