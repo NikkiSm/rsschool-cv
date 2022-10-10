@@ -84,7 +84,7 @@ h4 {
   line-height: 21px;
   padding-left: 590px;
 }
-@media (max-width: 720px) {
+@media (max-width: 920px) {
   .footer-central-text {
     display: none;
   }
@@ -102,7 +102,7 @@ h4 {
   padding-right: 120px;
   margin: auto;
 }
-@media (max-width: 720px) {
+@media (max-width: 920px) {
   .footer-social-media-icons {
     padding-left: 0px;
     padding-right: 0px;
@@ -122,10 +122,16 @@ h4 {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   z-index: 1;
 }
-@media (max-width: 720px) {
+@media (max-width: 920px) {
   .background-travelstories {
     border: none;
     box-shadow: none;
+  }
+}
+
+@media (max-width: 920px) {
+  .lastparagraph {
+    margin-bottom: 0px;
   }
 }
 
@@ -151,7 +157,7 @@ h4 {
   top: 418px;
   height: 59px;
 }
-@media (max-width: 720px) {
+@media (max-width: 920px) {
   .button-promo {
     width: 92px;
     height: 30px;
@@ -215,7 +221,7 @@ h4 {
   top: 6.25%;
   bottom: 0%;
 }
-@media (max-width: 720px) {
+@media (max-width: 920px) {
   .logo-mobile {
     display: block;
   }
@@ -231,7 +237,7 @@ h4 {
   top: 6.25%;
   bottom: 0%;
 }
-@media (max-width: 720px) {
+@media (max-width: 920px) {
   .burger-menu {
     display: block;
   }
@@ -357,7 +363,7 @@ div#text-upperpic {
   max-width: 1440px;
   margin: auto;
 }
-@media (max-width: 720px) {
+@media (max-width: 920px) {
   .wrapper {
     padding: 0px 15px;
   }
@@ -367,7 +373,7 @@ div#text-upperpic {
   max-width: 1440px;
   margin: auto;
 }
-@media (max-width: 720px) {
+@media (max-width: 920px) {
   #wrapper {
     padding: 0px;
   }
@@ -431,9 +437,10 @@ div#text-upperpic {
   background: rgba(255, 255, 255, 0.7);
   padding-bottom: 40px;
 }
-@media (max-width: 720px) {
+@media (max-width: 920px) {
   .layout-2-column .opacity-07 {
     padding-bottom: 13px;
+    background: rgba(255, 255, 255, 0.7);
   }
 }
 
@@ -458,7 +465,7 @@ div#text-upperpic {
   border: 1px solid #000000;
   box-sizing: border-box;
 }
-@media (max-width: 720px) {
+@media (max-width: 920px) {
   .header {
     display: none;
   }
@@ -474,7 +481,7 @@ div#text-upperpic {
   margin-top: 0px;
   color: #FFFFFF;
 }
-@media (max-width: 720px) {
+@media (max-width: 920px) {
   .promo {
     background-image: url("/img/backgrounds/bg-small-first.png");
     background-repeat: no-repeat;
@@ -485,7 +492,7 @@ div#text-upperpic {
     margin: none;
   }
 }
-@media (max-width: 720px) {
+@media (max-width: 920px) {
   .promo {
     height: 350px;
   }
@@ -505,7 +512,7 @@ div#text-upperpic {
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
-@media (max-width: 720px) {
+@media (max-width: 920px) {
   .promo__header {
     display: none;
   }
@@ -514,7 +521,7 @@ div#text-upperpic {
 .promo__p {
   padding-top: 30px;
 }
-@media (max-width: 720px) {
+@media (max-width: 920px) {
   .promo__p {
     display: none;
   }
@@ -527,7 +534,7 @@ div#text-upperpic {
   height: 95px;
   border: none;
 }
-@media (max-width: 720px) {
+@media (max-width: 920px) {
   .promo__input {
     padding: auto;
     height: 48px;
@@ -545,7 +552,7 @@ input::placeholder {
   line-height: 29px;
   font-style: italic;
 }
-@media (max-width: 720px) {
+@media (max-width: 920px) {
   input::placeholder {
     padding-left: 16px;
     font-size: 14px;
@@ -558,7 +565,7 @@ input::placeholder {
 .promo__wrapper {
   padding-left: 120px;
 }
-@media (max-width: 720px) {
+@media (max-width: 920px) {
   .promo__wrapper {
     padding-left: 0px;
   }
@@ -575,7 +582,7 @@ input::placeholder {
   font-weight: 500;
   line-height: 53px;
 }
-@media (max-width: 720px) {
+@media (max-width: 920px) {
   .header-tools {
     font-size: 14px;
     font-weight: 500;
@@ -586,7 +593,7 @@ input::placeholder {
 .tool {
   padding-left: 84px;
 }
-@media (max-width: 720px) {
+@media (max-width: 920px) {
   .tool {
     padding-left: 0px;
     margin-bottom: -10px;
@@ -595,6 +602,11 @@ input::placeholder {
 
 .tool__icon {
   display: flex;
+}
+@media (max-width: 920px) {
+  .tool__icon {
+    justify-content: space-evenly;
+  }
 }
 
 .icon__square {
@@ -607,7 +619,7 @@ input::placeholder {
   justify-content: center;
   background-color: #F2785C;
 }
-@media (max-width: 720px) {
+@media (max-width: 920px) {
   .icon__square {
     width: 70px;
     height: 70px;
@@ -624,7 +636,7 @@ input::placeholder {
 .text-steps {
   padding-left: 80px;
 }
-@media (max-width: 720px) {
+@media (max-width: 920px) {
   .text-steps {
     padding-left: 0px;
   }
@@ -653,7 +665,7 @@ input::placeholder {
 .destination-image {
   border-radius: 16px;
 }
-@media (max-width: 720px) {
+@media (max-width: 920px) {
   .destination-image {
     height: 210px;
     width: 360px;

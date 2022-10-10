@@ -16,6 +16,9 @@
 }
 .tool__icon {
   display: flex;
+  @include media-tablet {
+    justify-content: space-evenly;
+  }
 }
 .icon__square {
   

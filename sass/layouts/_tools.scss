@@ -27,6 +27,6 @@ width: 50%;
     padding-bottom: 40px;
     @include media-mobile; @include media-tablet {
       padding-bottom: 13px;
-      
+    background: rgba(255,255,255,0.7);
      }
   }}
