@@ -33,6 +33,13 @@ width: 92px;
     margin-top: 40%;
     position: absolute;
 }
+@media only screen and (min-width:721px) and (max-width:920px) {
+    margin-left: 79%;
+    margin-top: 34%;
+}
+@media only screen and (min-width:921px) and (max-width:1700px) {
+    left: 670px;
+}
 }
 
 

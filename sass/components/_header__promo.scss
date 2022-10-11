@@ -78,6 +78,12 @@ width: 96.3%;
     margin-left: 15px;
    
 }
+@media only screen and (min-width:721px) and (max-width:920px) {
+    margin-top: 33%;
+}
+@media only screen and (min-width:921px) and (max-width:1700px) {
+    width: 792px;
+}
 }
 input::placeholder {
     color: $color-additional;
